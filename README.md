@@ -42,7 +42,7 @@ export default router
 
 ### Middlewares
 All the middlewares we are going to need needs to be here
-```
+```javascript
 export default async function rootMiddleware (ctx, next) {
   try {
     await next() // next is now a function
